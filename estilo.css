@@ -494,6 +494,7 @@ section.contato .w50,section.contato .w100{
 }
 /*responsivo*/
 @media screen and (max-width:768px){
+  .img-avatar{width:100%;}
   section.main-bg{
     height: 400px;
   }
