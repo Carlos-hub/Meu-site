@@ -494,6 +494,8 @@ section.contato .w50,section.contato .w100{
 }
 /*responsivo*/
 @media screen and (max-width:768px){
+  .sobre-container{width:100%;}
+  .equipe-container{width:100%;}
   .img-avatar{width:100%;}
   section.main-bg{
     height: 400px;
@@ -544,6 +546,8 @@ section.contato .w50,section.contato .w100{
   }
 }
 @media screen and (max-width: 500px){
+  .equipe-container{width:100%;}
+  .sobre-container{width:100%;}
   .w33 input[type=submit]{
     margin-left: 2px;
   width: 100%;
