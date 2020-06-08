@@ -1,0 +1,108 @@
+<!--Doctype html-->
+<html>
+  <head>
+
+    <title>Investindo Conciente</title>
+    <meta charset="utf-8">
+    <!--meta tag para responsivo-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <header>
+          <div class="container">
+              <div class="logo"><a href="index.html"><img style="width:80px;" src="investindo_consciente.jpeg"></a></div>
+              <nav class="menu-desktop">
+                  <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="contato.html">Contato</a></li>
+                      <li class="selected"><a href="sobre.html">Sobre</a></li>
+                  </ul>
+              </nav>
+              <nav class="menu-mobile">
+                <h2> <i class="fa fa-bars"></i></h2>
+                <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li class="selected"><a href="contato.html">Contato</a></li>
+                      <li><a href="sobre.html">Sobre</a></li>
+                  </ul>
+              </nav>
+          </div><div class="clear"></div>
+      </header>
+      <section style="background-image: url(imagem12.jpeg);" class="title-page">
+        <div class="overlay__title-page"></div>
+        <div class="container">
+          <h2>Contato</h2>
+          <p>Estamos sempre a disposição.</p>
+        </div>
+      </section>
+      <section class="contato">
+        <div class="container">
+          <div class="w60 formulario">
+            <h2>entre em contato que estaremos respondendo o mais breve possível</h2>
+            <form method="post">
+              <div class="w50">
+                <input type="text" placeholder="Nome..." required/>
+              </div>
+              <div class="w50">
+                <input type="text" placeholder="Sobrenome..." required />
+              </div>
+               <div class="w100">
+                <input placeholder="E-mail..." type="E-mail" required />
+              </div>
+              <div class="w100">
+                <textarea placeholder="Sua mensagem..."></textarea>
+              </div>
+              <div class="w33">
+                <input type="submit" name="Enviar">
+              </div>
+            </form>
+          </div>
+          <div class="w40 tags-form">
+            <h2><i class="fa fa-comment"></i> Fale com a nossa Equipe</h2>
+            <p>Para mais informações entre em contato para mais informações </p>
+            <p class="tag-contato"><i class="fa fa-instagram"></i>/Instagram</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </section>
+      <footer class="footer1">
+          <div class="container">
+              <div class="w33">
+               <h2>Aonde estamos?</h2>
+                <p><i class="fa fa-map-marker" aria-hidden="true"></i>Chapecó, SC, Brasil.</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i>(49)991117061.</p>
+              </div>
+              <div class="w33">
+               <h2>Aonde estamos?</h2>
+                <a href="#">Para mais informações </a>
+                <a href="#">Acesse</a>
+                <a href="#">link </a>
+              </div>
+                <div class="w33">
+                <h2>Entre em contato conosco</h2>
+                  <div class="group-icons">
+                    <a href="https://www.facebook.com/carlosmiguel.delara/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/lara_carlos_miguel/?hl=pt-br"><i class="fa fa-instagram"></i></a>
+                  </div>
+              </div>
+              <div class="clear"></div>
+      </footer>
+      </footer>
+      <footer class="footer2">
+        <div class="container">
+          <p>Todos os direitos reservados.</p>
+        </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js
+"></script>
+      <script>
+        $('nav.menu-mobile h2').click(function(){
+          $('nav.menu-mobile ul').slideToggle();
+        });
+      </script>
+    </body>
+</html>
+
+
