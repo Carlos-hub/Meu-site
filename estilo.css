@@ -494,6 +494,14 @@ section.contato .w50,section.contato .w100{
 }
 /*responsivo*/
 @media screen and (max-width:768px){
+  .inscricao-form input[type=text]{
+  width: 100%;
+  display:block;
+  margin-bottom: 10px;
+  }
+  .inscricao-form input[type=submit]{
+  width:100%;
+  }
   section.sobre-equipe > .container{
   display: block;
   }
@@ -546,22 +554,29 @@ section.contato .w50,section.contato .w100{
   }
 }
 @media screen and (max-width: 500px){
+  .inscricao-form input[type=text]{
+  display:block;
+  margin-bottom: 10px;
+  }
+  .inscricao-form input[type=submit]{
+  width:120px;
+  }
   .w33 input[type=submit]{
     margin-left: 2px;
   width: 100%;
-}
+  }
   .tags-form{
   padding-left: 0px;
-}
+  }
   .formulario input[type=text],.formulario input[type=E-mail]{
   margin-bottom: 0px;
-}
+  }
 .formulario textarea{
   margin-bottom: 0px;
-}
+  }
   .card-text{
   width:100%;
-}
+  }
   nav.menu-desktop{
     display: none;
   }
